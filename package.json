@@ -1,0 +1,23 @@
+{
+	"name": "simple_erc20_bridge",
+	"version": "1.0.0",
+	"description": "간단한 ERC20 Bridge를 통해 타 네트워크간 토큰을 주고 받습니다.",
+	"main": "truffle-config.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@truffle/hdwallet-provider": "^2.1.8"
+	},
+	"devDependencies": {
+		"chai": "^4.3.7",
+		"chai-as-promised": "^7.1.1",
+		"hardhat": "^2.13.0"
+	}
+}
